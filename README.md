@@ -1,1 +1,0 @@
-# patricksousamacedo.github.io
