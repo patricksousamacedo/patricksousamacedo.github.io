@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts | Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Patrick Macedo | Portfolio</title>
+  </head>
+  <body>
+    <section id="title">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <img src="./images/menu.png" alt="Menu">
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"navbar>
+                <a class="nav-link" href="#about">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="background-div">
+        <div class="text-background">
+          <h1>Patrick Macedo</h1>
+          <h2>Desenvolvedor web</h2>
+        </div>
+        <img class="img-background" src="./images/computer.jpg" alt="Computador">
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container-fluid">
+        <h2>Sobre</h2>
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <img class="eu-img" src="./images/eu.png" alt="Patrick Macedo">
+          </div>
+          <div class="col-lg-6 col-md-12 aboutparagrafo">
+            <p> 
+              Desenvolvedor web apaixonado pelo que faz, desede criança
+              amo o mundo da programação e tecnologia. Tenho alguns
+              anos de experiencia, e nesse tempo venho criando
+              interfaces bonitas e funcionais que sempre agradam meus 
+              clientes. Uso as melhores ferramentas de desenvolvimento 
+              para programar as interfaces que crio. Veja algumas das
+              ferramentas que tenho habilidade:
+            </p>
+            <div class="container-icon-habilidades">
+              <img class="icone-habilidades" src="./images/html-5.png" alt="">
+              <img class="icone-habilidades" src="./images/css-3.png" alt="">
+              <img class="icone-habilidades" src="./images/js.png" alt="">
+              <img class="icone-habilidades" src="./images/typescript.png" alt="">
+              <img class="icone-habilidades" src="./images/bootstrap.png" alt="">
+              <img class="icone-habilidades" src="./images/react.png" alt="">
+              <img class="icone-habilidades" src="./images/figma.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projetos</h2>
+      <p>Veja alguns dos meus melhores trabalhos</p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 container-project">
+            <div class="box-project">
+              <a href="https://boisterous-klepon-b1ac6f.netlify.app/ " target="_blank">
+                <img src="images/bikecraft.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 container-project">
+            <div class="box-project">
+              <a href="https://genuine-melomakarona-f544b4.netlify.app/" target="_blank">
+                <img src="images/dtmoney.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 container-project">
+            <div class="box-project">
+              <a href="https://prismatic-bavarois-5a8a28.netlify.app/" target="_blank">
+                <img src="images/netflix.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 container-project">
+            <div class="box-project">
+              <a href="https://magenta-cascaron-68586a.netlify.app/" target="_blank">
+                <img src="images/Traversy.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container-fluid">
+        <h2>Contato</h2>
+        <div class="row container-contact">
+          <div class="col-lg-6">
+            <form action="https://formsubmit.co/patricksouzamacedo@gmail.com" method="POST">
+              <div class="mb-3">
+                <input type="email" name="Email" class="input-email form-control" id="exampleFormControlInput1" placeholder="Adicione seu melhor Email">
+              </div>
+              <div class="mb-3">
+                <textarea class="textarea form-control" name="Message" id="exampleFormControlTextarea1" placeholder="Escreva sua mensagem" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-contact btn-primary">Enviar</button>
+            </form>
+          </div>
+          <div class="col-6 container-contact">
+            <div class="row container-info-contact">
+              <div class="col infos-contact">
+                <img class="icons-contact" src="/images/email.png" alt="Email">
+                <h3>patricksouzamacedo@gmail.com</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col infos-contact">
+                <img class="icons-contact" src="/images/whatsapp.png" alt="Email">
+                <h3>(83)996658604</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row content-footer">
+          <div class="col container-name">
+            <p>Patrick Macedo | Alguns direitos reservados</p>
+          </div>
+          <div class="col container-icons-redes">
+            <div class="container-icons">
+              <img class="icons-redes" src="/images/github.png" alt="Github">
+              <img class="icons-redes" src="/images/behance.png" alt="Behance">
+              <img class="icons-redes" src="/images/instagram.png" alt="instagram">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
